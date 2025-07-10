@@ -9,6 +9,7 @@ A template for deploying ASP.NET Core applications to AWS EC2 instances with aut
 - Automated environment setup
 - Production-ready configuration
 - Security best practices implementation
+- the app works on http://EC2-public-ip:8002
 
 ## 📋 Prerequisites
 
