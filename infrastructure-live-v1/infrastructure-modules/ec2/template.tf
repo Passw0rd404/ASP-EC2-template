@@ -4,7 +4,7 @@ resource "aws_launch_template" "this" {
   instance_type = var.instance_type
   key_name      = var.key_name
 
-  user_data = base64encode(var.user_data_script)
+  user_data = base64encode(file("${path.module}/build.sh"))
 
   network_interfaces {
     associate_public_ip_address = true

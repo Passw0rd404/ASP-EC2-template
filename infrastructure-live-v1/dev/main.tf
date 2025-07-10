@@ -14,5 +14,4 @@ module "ec2" {
   env = "dev"
   key_name = "aws-hero"
   instance_type = "t3.micro"
-  user_data_script = file("build.sh")
 }

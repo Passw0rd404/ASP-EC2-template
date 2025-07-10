@@ -21,8 +21,3 @@ variable "key_name" {
     type = string
     default = "aws-hero"
 }
-
-variable "user_data_script" {
-  description = "User data script content"
-  type        = string
-}
